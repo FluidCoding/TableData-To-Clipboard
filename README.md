@@ -1,5 +1,7 @@
 ## Just some sample dom copying to copyToClipboard
 
+[[Demo]](https://fluidcoding.github.io/TableData-To-Clipboard/SimpleTableCopy.html) - [[Demo w. Toast]](https://fluidcoding.github.io/TableData-To-Clipboard/TableWithToast.html)
+
 **Uses**
 
   - [JQuery](https://code.jquery.com/jquery-3.1.1.min.js)
