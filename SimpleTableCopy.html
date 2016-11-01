@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Clipboard & ToolTip</title>
+    <style>
+      th, td{border: 1px solid black;}
+    </style>
+  </head>
+  <body>
+    <h2>Here's a table of stuff</h2>
+    <table>
+      <tr>
+       <th>ID</th><th>Name</th><th>Username</th><th>Password</th><th>Email</th>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>John Smith</td>
+        <td>smithiej</td>
+        <td>13KDOkelPP</td>
+        <td>email@gmail.com</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Craylong Name ahhhhh</td>
+        <td>CrayN</td>
+        <td>vEEKLwfdP</td>
+        <td>emailr@gmail.com</td>
+      </tr>
+    </table>
+  </body>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="TableCellToClipboard.js"></script>
+  <script>
+    $(function() {
+      hookCopyFor('td');
+    });
+  </script>
+</html>
